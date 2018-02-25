@@ -1,5 +1,3 @@
-;;;; 816939 Golemme Paolo
-
 ;;; Input parser
 (defun variablep (v)
 (and (symbolp v) (char= #\? (char (symbol-name v) 0))))
